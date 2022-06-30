@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
-* main - prints the string in the printf function
-* 
-* Description - using the main function
-* this program prints "with proper grammar, but the outcome is a piece of art," followed by a new line
-* return 0
+* main - print the string in the printf function
+*
+* Description: using the main function
+* this program prints "with proper grammar, but the outcome is a piece of art," followed by a new line.
+* Return: 0
 */
 int main(void)
 {
