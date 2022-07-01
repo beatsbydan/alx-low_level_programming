@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-* main - this program prints combination of 2 digits
-* Return: 0
+* main - program prints combo of 2 digits
+* Return: 0;
 */
 int main(void)
 {
@@ -25,6 +25,7 @@ int main(void)
 				putchar(' ');
 			}
 		}
+		c++;
 	}
 putchar('\n');
 return (0);
