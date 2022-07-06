@@ -8,9 +8,9 @@
  */
 void print_to_98(int n)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i <= n; i++)
+	while (i <= n)
 	{
 		while (n >= 0)
 		{
@@ -26,6 +26,7 @@ void print_to_98(int n)
 			_putchar(' ');
 			n++;
 		}
+		i++;
 	}
 }
 
