@@ -1,16 +1,15 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
- * print_times_table - prints for a given number
+ * print_times_table - prints time table
  * @n: argument
- * Return: times table
+ * Return: time table
  */
 void print_times_table(int n)
 {
 	int r;
 	int c;
-	int d;
+	int v;
 
 	for (r = 0; r <= n; r++)
 	{
@@ -20,16 +19,16 @@ void print_times_table(int n)
 		_putchar(' ');
 		for (c = 1; c <= n; c++)
 		{
-			d = (r * c);
-			if ((d / 100) > 0)
+			v = (r * c);
+			if ((v / 10) > 0)
 			{
-				_putchar((d / 100) + '0');
+				_putchar((v / 10) + '0');
 			}
 			else
 			{
 				_putchar(' ');
 			}
-			_putchar((d % 100) + '0');
+			_putchar((v % 10) + '0');
 
 			if (c < n)
 			{
@@ -38,10 +37,10 @@ void print_times_table(int n)
 				_putchar(' ');
 			}
 		}
+		if (n > 15 || n < 0)
+		{
+			_putchar(' ');
+		}
 		_putchar('\n');
-	}
-	if (n > 15 || n < 0)
-	{
-		exit(EXIT_FAILURE);
 	}
 }
