@@ -8,10 +8,5 @@
  */
 int add(int a, int b)
 {
-	int result;
-
-	result = a + b;
-	_putchar(result);
-	_putchar('\n');
-	return (0);
+	return (a + b);
 }
