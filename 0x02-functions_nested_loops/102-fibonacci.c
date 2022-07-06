@@ -20,7 +20,7 @@ int main(void)
 		_num = num_1;
 		num_1 = new_num;
 		printf("%d", new_num);
-		if (n != total)
+		if (n != total - 1)
 		{
 			printf(", ");
 		}
