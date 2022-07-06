@@ -33,10 +33,11 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 			}
-			else if (c > 15 || c < 0)
-			{
-				exit(EXIT_FAILURE);
-			}
 		}
+		_putchar('\n');
+	}
+	if (n > 15 || n < 0)
+	{
+		exit(EXIT_FAILURE);
 	}
 }
