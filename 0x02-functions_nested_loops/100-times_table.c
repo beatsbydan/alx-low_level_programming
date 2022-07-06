@@ -24,6 +24,10 @@ void print_times_table(int n)
 			{
 				_putchar((v / 10) + '0');
 			}
+			else if ((v / 10) > 100)
+			{
+				_putchar((v / 10) + '0');
+			}
 			else
 			{
 				_putchar(' ');
