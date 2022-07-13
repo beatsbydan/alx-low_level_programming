@@ -3,7 +3,7 @@
 
 /**
  * puts_half - puts half of the string
- * @str - string ti be cut n half
+ * @str: string to be cut in half
  * Return: nothing
  */
 
