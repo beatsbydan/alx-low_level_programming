@@ -9,22 +9,15 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int reti = strcmp(s1, s2);
-	int a = -15;
-	int b = 15;
-	int c = 0;
+	int a = 0;
 
-	if (reti < 0)
+	while (s1[a] != '\0')
 	{
-		return (a);
-	}
-	else if (reti > 0)
-	{
-		return (b);
-	}
-	else
-	{
-		return (c);
+		if (s1[a] < s2[a])
+			return (s1[a] - s2[a]);
+		if (s1[a] > s2[a])
+			return (s1[a] - s2[a]);
+		a++;
 	}
 	return (0);
 }
