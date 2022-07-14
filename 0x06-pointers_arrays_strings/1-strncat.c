@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strncpy - copies a string
+ * _strncat - copies a string
  * @dest: destination
  * @src: source
  * @n: argument
@@ -11,5 +11,5 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	strncat(dest, src, n);
-	return(dest);
+	return (dest);
 }
