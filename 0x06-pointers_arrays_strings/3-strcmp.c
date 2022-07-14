@@ -14,11 +14,11 @@ int _strcmp(char *s1, char *s2)
 	int b = 15;
 	int c = 0;
 
-	if(reti < 0)
+	if (reti < 0)
 	{
-	       	return (a);
-	} 
-	else if(reti > 0) 
+		return (a);
+	}
+	else if (reti > 0)
 	{
 		return (b);
 	}
